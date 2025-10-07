@@ -17,4 +17,4 @@ public class Zad1 {
 }
 
 
-//ZADANIE 2, 3, 5, 7
+//ZADANIE 2, 3, 5, 7, KARTKOWKA 

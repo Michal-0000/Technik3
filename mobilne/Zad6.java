@@ -38,5 +38,6 @@ public class Zad6 {
 
             System.out.println("Twoja pozycja to"+y+"/"+x);
         }
+        scanner.close();
     }
 }
