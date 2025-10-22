@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Technik2\\Documents\\Technik3\\desktopowe\\Combo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{491E7BC2-9B64-4275-A6E0-75C39AFF5F95}|Combo\\Combo.csproj|c:\\users\\technik2\\documents\\technik3\\desktopowe\\combo\\combo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{491E7BC2-9B64-4275-A6E0-75C39AFF5F95}|Combo\\Combo.csproj|solutionrelative:combo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{491E7BC2-9B64-4275-A6E0-75C39AFF5F95}|Combo\\Combo.csproj|c:\\users\\technik2\\documents\\technik3\\desktopowe\\combo\\combo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{491E7BC2-9B64-4275-A6E0-75C39AFF5F95}|Combo\\Combo.csproj|solutionrelative:combo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Technik2\\Documents\\Technik3\\desktopowe\\Combo\\Combo\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Combo\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Technik2\\Documents\\Technik3\\desktopowe\\Combo\\Combo\\MainWindow.xaml",
+              "RelativeToolTip": "Combo\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-15T06:17:45.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Technik2\\Documents\\Technik3\\desktopowe\\Combo\\Combo\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Combo\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Technik2\\Documents\\Technik3\\desktopowe\\Combo\\Combo\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Combo\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:17:40.983Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
