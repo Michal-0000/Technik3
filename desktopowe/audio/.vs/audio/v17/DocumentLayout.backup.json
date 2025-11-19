@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Technik2\\Documents\\Technik3\\desktopowe\\audio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4358A5-A16F-4BA4-9FC1-42A9100A5FCD}|audio\\audio.csproj|c:\\users\\technik2\\documents\\technik3\\desktopowe\\audio\\audio\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4358A5-A16F-4BA4-9FC1-42A9100A5FCD}|audio\\audio.csproj|solutionrelative:audio\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4358A5-A16F-4BA4-9FC1-42A9100A5FCD}|audio\\audio.csproj|c:\\users\\technik2\\documents\\technik3\\desktopowe\\audio\\audio\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F4358A5-A16F-4BA4-9FC1-42A9100A5FCD}|audio\\audio.csproj|solutionrelative:audio\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Technik2\\Documents\\Technik3\\desktopowe\\audio\\audio\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "audio\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Technik2\\Documents\\Technik3\\desktopowe\\audio\\audio\\MainWindow.xaml",
+              "RelativeToolTip": "audio\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T07:14:17.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Technik2\\Documents\\Technik3\\desktopowe\\audio\\audio\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "audio\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Technik2\\Documents\\Technik3\\desktopowe\\audio\\audio\\MainWindow.xaml.cs",
+              "RelativeToolTip": "audio\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIA5wDEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:14:13.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
