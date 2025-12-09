@@ -1,0 +1,34 @@
+{
+    "ksiazki": [
+        {
+            "ID_ksiazki": 1,
+            "tytul": "Calinka",
+            "wydawnictwo": "NOwa era",
+            "ID_autor": 1,
+            "rokwydania": 2024
+        }
+    ],
+    "autorzy": [],
+    "wypozyczajacy": [
+        {
+            "ID_wypozyczajacy": 1,
+            "imie": "Jan",
+            "nazwisko": "Kowalski",
+            "telefon": "123456789"
+        },
+        {
+            "ID_wypozyczajacy": 2,
+            "imie": "Maria",
+            "nazwisko": "Ann",
+            "telefon": "989898989"
+        }
+    ],
+    "wypozyczenia": [
+        {
+            "ID_wypozyczajacego": 1,
+            "ID_ksiazki": 1,
+            "data_wyp": "2025-01-2",
+            "data_odd": "2025-04-13"
+        }
+    ]
+}
