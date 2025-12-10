@@ -21,7 +21,7 @@ namespace dynamiccanvas
         private Random random = new Random();
         private List<MovingEllipse> movingEllipses = new List<MovingEllipse>();
         private DispatcherTimer timer;
-        private double ellRadious = 15;
+        private const double ellRadious = 15;
 
         public MainWindow()
         {
@@ -58,20 +58,20 @@ namespace dynamiccanvas
             {
                 for(int i =0; i < ilosc; i++)
                 {
-                    
+                    SolidColorBrush color = new SolidColorBrush(Color.FromRgb((byte)random.Next(0, 255), (byte)random.Next(0, 255), (byte)random.Next(0, 255)));
                     Ellipse ellipse = new Ellipse
                     {
                         Width = ellRadious*2,
                         Height = ellRadious*2,
-                        Fill = Brushes.Red,
-                        Stroke = Brushes.Red,
+                        Fill = color,
+                        Stroke = color,
                         StrokeThickness = 1
                     };
                     double x = ellRadious + random.NextDouble() * (canvas.ActualWidth - ellRadious);
                     double y = ellRadious + random.NextDouble() * (canvas.ActualHeight - ellRadious);
                     Canvas.SetLeft(ellipse, x);
                     Canvas.SetTop(ellipse, y);
-                    MovingEllipse movEllipse = new MovingEllipse(ellipse, x, y, 0.5 + random.NextDouble() * 3, 0.5 + random.NextDouble() * 3);
+                    MovingEllipse movEllipse = new MovingEllipse(ellipse, x, y, random.NextDouble() * 3 - 6, random.NextDouble() * 3 -6);
                     canvas.Children.Add(ellipse);
                     movingEllipses.Add(movEllipse);
                 }
@@ -88,29 +88,73 @@ namespace dynamiccanvas
             {
                 if(el.posX + el.velX + ellRadious * 2 >= canvas.ActualWidth)
                 {
-                    el.velX *= -1;
+                    el.velX = -Math.Abs(el.velX);
                 }
-                else if(el.posX + el.velX <= ellRadious)
+                else if(el.posX + el.velX <= 0)
                 {
-                    el.velX *= -1;
+                    el.velX = Math.Abs(el.velX);
                 }
                 if (el.posY + el.velY + ellRadious * 2>= canvas.ActualHeight)
                 {
-                    el.velY *= -1;
+                    el.velY = -Math.Abs(el.velY);
                 }
-                else if (el.posY + el.velY <= ellRadious)
+                else if (el.posY + el.velY <= 0)
                 {
-                    el.velY *= -1;
+                    el.velY = Math.Abs(el.velY);
                 }
+                CheckForCollisions(el);
                 el.posX += el.velX;
                 el.posY += el.velY;
                 Canvas.SetLeft(el.Ellipse, el.posX);
                 Canvas.SetTop(el.Ellipse, el.posY);
+            }
+        }
+        private void CheckForCollisions(MovingEllipse el)
+        {
+            foreach (MovingEllipse other in movingEllipses)
+            {
+                if (el == other) continue;
+                //double dist = Distance(el.posX, el.posY, other.posX, other.posY);
+                double Xdiff = other.posX - el.posX;
+                double Ydiff = other.posY - el.posY;
+                if(Xdiff > 0 && Xdiff <= ellRadious * 2 && Ydiff > 0 && Ydiff <= ellRadious * 2)
+                {
+                    el.velX = -Math.Abs(el.velX);
+                    el.velY = -Math.Abs(el.velY);
+                    other.velX = Math.Abs(other.velX);
+                    other.velY = Math.Abs(other.velY);
+                }
+                else if (Xdiff < 0 && Math.Abs(Xdiff) <= ellRadious * 2 && Ydiff > 0 && Ydiff <= ellRadious * 2)
+                {
+                    el.velX = Math.Abs(el.velX);
+                    el.velY = -Math.Abs(el.velY);
+                    other.velX = -Math.Abs(other.velX);
+                    other.velY = Math.Abs(other.velY);
+                }
+                else if (Xdiff > 0 && Xdiff <= ellRadious * 2 && Ydiff < 0 && Math.Abs(Ydiff) <= ellRadious * 2)
+                {
+                    el.velX = -Math.Abs(el.velX);
+                    el.velY = Math.Abs(el.velY);
+                    other.velX = Math.Abs(other.velX);
+                    other.velY = -Math.Abs(other.velY);
+                }
+                else if (Xdiff < 0 && Math.Abs(Xdiff) <= ellRadious * 2 && Ydiff < 0 && Math.Abs(Ydiff) <= ellRadious * 2)
+                {
+                    el.velX = Math.Abs(el.velX);
+                    el.velY = Math.Abs(el.velY);
+                    other.velX = -Math.Abs(other.velX);
+                    other.velY = -Math.Abs(other.velY);
+                }
+
 
 
             }
         }
 
+        private double Distance(double x1, double y1, double x2, double y2)
+        {
+            return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+        }
         public class MovingEllipse
         {
             public Ellipse Ellipse;

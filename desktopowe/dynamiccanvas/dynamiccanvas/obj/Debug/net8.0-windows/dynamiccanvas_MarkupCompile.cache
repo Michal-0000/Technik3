@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Technik2\Documents\Technik3\desktopowe\dynamiccanvas\dynamiccanvas\obj\Debug\net8.0-windows\
+D:\Archiwa\Lekcje\Technik3\Technik3\desktopowe\dynamiccanvas\dynamiccanvas\obj\Debug\net8.0-windows\
 dynamiccanvas
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\Technik2\Documents\Technik3\desktopowe\dynamiccanvas\dynamiccanvas\App.xaml
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\Archiwa\Lekcje\Technik3\Technik3\desktopowe\dynamiccanvas\dynamiccanvas\App.xaml
 11407045341
 
 4935559470
-198-2136442823
+198-344842731
 MainWindow.xaml;
 
 False

@@ -6,6 +6,13 @@
             "wydawnictwo": "NOwa era",
             "ID_autor": 1,
             "rokwydania": 2024
+        },
+        {
+            "ID_ksiazki": 2,
+            "tytul": "Hobbit",
+            "wydawnictwo": "Zysk i S-ka",
+            "ID_autor": 2,
+            "rokwydania": 1937
         }
     ],
     "autorzy": [],
@@ -29,6 +36,12 @@
             "ID_ksiazki": 1,
             "data_wyp": "2025-01-2",
             "data_odd": "2025-04-13"
+        },
+        {
+            "ID_wypozyczajacego": 2,
+            "ID_ksiazki": 2,
+            "data_wyp": "2024-06-15",
+            "data_odd": "2024-07-15"
         }
     ]
 }

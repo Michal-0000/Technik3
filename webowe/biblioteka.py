@@ -168,12 +168,14 @@ class Biblioteka:
         
         
 biblioteka = Biblioteka()
-
+biblioteka.wczytaj()
 # biblioteka.wypozyczajacy.append(Wypozyczajacy(1, "Jan", "Kowalski", "123456789"))
 # biblioteka.wypozyczajacy.append(Wypozyczajacy(2, "Maria", "Ann", "989898989"))
 # biblioteka.wypozyczenia.append(Wypozyczenie(1, 1, "2025-01-2", "2025-04-13"))
 # biblioteka.ksiazki.append(Ksiazka(1, "Calinka", "NOwa era", 1, 2024))
-# biblioteka.zapisz()
+biblioteka.ksiazki.append(Ksiazka(2, "Hobbit", "Zysk i S-ka", 2, 1937))
+biblioteka.wypozyczenia.append(Wypozyczenie(2, 2, "2024-06-15", "2024-07-15"))
+biblioteka.zapisz()
 
 biblioteka.wczytaj()
 biblioteka.pokaz()
