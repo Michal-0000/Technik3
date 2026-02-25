@@ -1,0 +1,28 @@
+﻿<Page x:Class="ZamowieniaPizzzy.PagePodsumowanie"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZamowieniaPizzzy"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PagePodsumowanie">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Label Content="Podsumowanie"/>
+            <Label Content="Adres" FontSize="18"/>
+            <TextBlock Name="txtImie" Width="200" Text="imie"/>
+            <TextBlock Name="txtUlica" Width="200" Text="ulica"/>
+            <TextBlock Name="txtKod" Width="200" Text="kod"/>
+            <TextBlock Name="txtMiasto" Width="200" Text="miasto"/>
+
+            <Label Content="Zamówienie" FontSize="18"/>
+            <TextBlock Name="txtRodzaj" Width="200"/>
+            <TextBlock Name="txtRozmiar" Width="200"/>
+            <TextBlock Name="txtIlosc" Width="200"/>
+            
+            <Button Name="Zamow" Content="Zamow" Width="130" Height="30" Margin="10" Click="Zamow_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

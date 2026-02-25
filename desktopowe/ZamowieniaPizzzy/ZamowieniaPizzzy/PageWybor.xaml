@@ -1,0 +1,30 @@
+﻿<Page x:Class="ZamowieniaPizzzy.PageWybor"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZamowieniaPizzzy"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageWybor">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Label Content="Rodzaj"/>
+            <ComboBox Name="rodzaj" Height="30" Width="120" Margin="10">
+                <ComboBoxItem Content="Margharita"/>
+                <ComboBoxItem Content="Zwykla"/>
+                <ComboBoxItem Content="Kebabowa"/>
+            </ComboBox>
+            <Label Content="Rozmiar"/>
+            <ComboBox Name="rozmiar" Height="30" Width="120" Margin="10">
+                <ComboBoxItem Content="Mala"/>
+                <ComboBoxItem Content="srednia"/>
+                <ComboBoxItem Content="duza"/>
+            </ComboBox>
+            <Label Content="Ilosc"/>
+            <TextBox Name="Ilosc" Width="50" Height="30" Margin="10" PreviewTextInput="NumericTextBox_PreviewTextInput"/>
+            <Button Name="Dalej" Content="Dalej" Width="130" Height="30" Margin="10" Click="Dalej_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
