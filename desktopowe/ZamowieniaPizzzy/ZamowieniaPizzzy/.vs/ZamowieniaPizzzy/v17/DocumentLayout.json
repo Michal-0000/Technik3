@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|d:\\archiwa\\lekcje\\technik3\\desktopowe\\zamowieniapizzzy\\zamowieniapizzzy\\pagepodsumowanie.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|solutionrelative:pagepodsumowanie.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|d:\\archiwa\\lekcje\\technik3\\desktopowe\\zamowieniapizzzy\\zamowieniapizzzy\\pagewybor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|solutionrelative:pagewybor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|d:\\archiwa\\lekcje\\technik3\\desktopowe\\zamowieniapizzzy\\zamowieniapizzzy\\pagepodsumowanie.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|solutionrelative:pagepodsumowanie.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|d:\\archiwa\\lekcje\\technik3\\desktopowe\\zamowieniapizzzy\\zamowieniapizzzy\\pageadres.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|solutionrelative:pageadres.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|d:\\archiwa\\lekcje\\technik3\\desktopowe\\zamowieniapizzzy\\zamowieniapizzzy\\pagewybor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|solutionrelative:pagewybor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|d:\\archiwa\\lekcje\\technik3\\desktopowe\\zamowieniapizzzy\\zamowieniapizzzy\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3E9029D-D853-EFDD-26B7-FE2EB5A9DA6B}|ZamowieniaPizzzy.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 189,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PageWybor.xaml",
+              "DocumentMoniker": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\PageWybor.xaml",
+              "RelativeDocumentMoniker": "PageWybor.xaml",
+              "ToolTip": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\PageWybor.xaml",
+              "RelativeToolTip": "PageWybor.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-24T23:37:57.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageWybor.xaml.cs",
+              "DocumentMoniker": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\PageWybor.xaml.cs",
+              "RelativeDocumentMoniker": "PageWybor.xaml.cs",
+              "ToolTip": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\PageWybor.xaml.cs",
+              "RelativeToolTip": "PageWybor.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAhwDQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:38:04.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PagePodsumowanie.xaml",
+              "DocumentMoniker": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\PagePodsumowanie.xaml",
+              "RelativeDocumentMoniker": "PagePodsumowanie.xaml",
+              "ToolTip": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\PagePodsumowanie.xaml",
+              "RelativeToolTip": "PagePodsumowanie.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-24T23:47:31.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PagePodsumowanie.xaml.cs",
+              "DocumentMoniker": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\PagePodsumowanie.xaml.cs",
+              "RelativeDocumentMoniker": "PagePodsumowanie.xaml.cs",
+              "ToolTip": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\PagePodsumowanie.xaml.cs",
+              "RelativeToolTip": "PagePodsumowanie.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:42:39.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:39:31.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageAdres.xaml.cs",
+              "DocumentMoniker": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\PageAdres.xaml.cs",
+              "RelativeDocumentMoniker": "PageAdres.xaml.cs",
+              "ToolTip": "D:\\Archiwa\\Lekcje\\Technik3\\desktopowe\\ZamowieniaPizzzy\\ZamowieniaPizzzy\\PageAdres.xaml.cs",
+              "RelativeToolTip": "PageAdres.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADgvyUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T23:39:35.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
