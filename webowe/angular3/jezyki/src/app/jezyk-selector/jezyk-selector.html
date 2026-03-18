@@ -1,0 +1,14 @@
+<div class="card p-3">
+<h3>Wybierz języki programowania:</h3>
+
+<div *ngFor="let jezyk of jezyki">
+  <label>
+    <input class="form-check-input" type="checkbox" [(ngModel)]="jezyk.checked">
+    {{ jezyk.name }}
+  </label>
+</div>
+
+<button class="btn btn-success mt-3" (click)="wyslijWybraneJezyki()">
+  Wyślij wybrane
+</button>
+</div>
