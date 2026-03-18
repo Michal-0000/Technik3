@@ -1,0 +1,8 @@
+<select [(ngModel)]="tempWybor">
+  <option value="" disabled selected>Wybierz gre</option>
+  <option *ngFor="let g of gatunki" [value]="g">{{g}}</option>
+</select>
+
+<button (click)="wyslij()">Wyslij</button>
+
+<app-muzyka [wybranaMuzyka] = "potwierdzonyWybor"></app-muzyka>
