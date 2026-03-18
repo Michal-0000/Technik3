@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("servertcp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("tcpclient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd0b2e7ebe47866c1964ed37f197fd1f44921c99")]
-[assembly: System.Reflection.AssemblyProductAttribute("servertcp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("servertcp")]
+[assembly: System.Reflection.AssemblyProductAttribute("tcpclient")]
+[assembly: System.Reflection.AssemblyTitleAttribute("tcpclient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.
 

@@ -1,0 +1,15 @@
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\bin\Debug\net10.0\servertcp.exe
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\bin\Debug\net10.0\servertcp.deps.json
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\bin\Debug\net10.0\servertcp.runtimeconfig.json
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\bin\Debug\net10.0\servertcp.dll
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\bin\Debug\net10.0\servertcp.pdb
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\obj\Debug\net10.0\servertcp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\obj\Debug\net10.0\servertcp.AssemblyInfoInputs.cache
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\obj\Debug\net10.0\servertcp.AssemblyInfo.cs
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\obj\Debug\net10.0\servertcp.csproj.CoreCompileInputs.cache
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\obj\Debug\net10.0\servertcp.sourcelink.json
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\obj\Debug\net10.0\servertcp.dll
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\obj\Debug\net10.0\refint\servertcp.dll
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\obj\Debug\net10.0\servertcp.pdb
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\obj\Debug\net10.0\servertcp.genruntimeconfig.cache
+C:\Users\Technik\Documents\kody\3TPI\Technik3\desktopowe\tcp\server\servertcp\servertcp\obj\Debug\net10.0\ref\servertcp.dll
