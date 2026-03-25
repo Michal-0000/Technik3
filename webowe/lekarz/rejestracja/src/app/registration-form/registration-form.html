@@ -1,0 +1,25 @@
+<div class="card shadow-sm p-">
+
+<h4>Rejestracja pacjenta</h4>
+<div class="mb-2">
+    <input type="text" [(ngModel)]="newPatient.fullName" class="form-control" placeholder="Imię i nazwisko"> 
+</div>
+<div class="mb-2">
+    <input type="text" [(ngModel)]="newPatient.pesel" class="form-control" placeholder="Pesel" maxlength="11"
+    minlength="11" pattern="\d{11}" #peselModel="ngModel">
+    @if (peselModel.dirty && peselModel.invalid){
+        <small class="text-danger">PESEL powinin składać się z 11 cyft.</small>
+    }
+</div>
+
+<div class="mb-3">
+    <select [(ngModel)] = "newPatient.specialist" class="form-control">
+        <option value="Internista">Internista</option>
+        <option value="Kardiolog">Kardiolog</option>
+        <option value="Neurolog">Neurolog</option>
+        <option value="Pediatra">Pediatra</option>
+    </select>
+</div>
+
+<button (click)="submit()" class="btn btn-primary">Dodaj do listy</button>
+</div>

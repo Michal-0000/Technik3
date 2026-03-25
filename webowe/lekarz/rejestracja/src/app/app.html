@@ -1,0 +1,14 @@
+<div class="container py-5">
+  <header class="text-center mb-5"><h1>Zarządzanie rejestracją pacjentów</h1></header>
+
+  <div class="row g-4">
+    <div class="col-lg-4">
+      <app-registration-form (patientAdded)="onNewPatient($event)"/>
+    </div>
+  </div>
+  <div class="row g-4">
+    <div class="col-lg-4">
+      <app-patient-list [patientList]="allPatients"></app-patient-list>
+    </div>
+  </div>
+</div>

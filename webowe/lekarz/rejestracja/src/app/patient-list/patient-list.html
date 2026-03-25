@@ -1,0 +1,23 @@
+<div class="table-responsive">
+    <h3>Kolejka pacjentó</h3>
+    <table class="table table-striped border">
+        <thead class="table-light">
+            <tr>
+                <th>Pacjent</th><th>Pesel</th><th>Lekarz</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (p of patientList; track p.pesel){
+                <tr>
+                    <td>{{p.fullName }}</td>
+                    <td>{{p.pesel}}</td>
+                    <td>{{p.specialist}}</td>
+                </tr>
+            }@empty {
+                <tr>
+                    <td colspan="3" class="text-center">Brak pacjentów w kolejce</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
