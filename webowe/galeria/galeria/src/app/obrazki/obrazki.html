@@ -1,0 +1,23 @@
+<div class ="container mt-5">
+    <h2>Fotogaleria</h2>
+
+    <div class="mb-4">
+        <label for="fileInput" class="form-contol">Wybierz pliki: </label>
+        <input type="file" multiple id="fileInput" class="form-contol" (change)="onFileChanged($event)">
+    </div>
+
+    <div class="row">
+        <div *ngFor="let image of images(); let i= index;" class="col-md-4 mb-4">
+                <div class="card">
+                    <img [src]="image" class="card-img-top">
+                    <div class="card-body text-center">
+                        <p class="card-text"><strong>{{ getName(files()[i]?.name || '') }}</strong></p>
+                        <p class="card-text">Rozmiar: {{  (files()[i].size || 0) / 1048576 | number:'1.2-2'}} MB </p>
+                        <button class="btn btn-danger" (click)="remove(i)">Usuń</button>
+                        
+                    </div>
+                </div>
+        </div>    
+    </div>
+
+</div>
