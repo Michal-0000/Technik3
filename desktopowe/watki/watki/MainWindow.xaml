@@ -1,0 +1,27 @@
+﻿<Window x:Class="watki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:watki"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock Name="txtStopwatch1" Text="Czas: 00:00:00" Height="30"></TextBlock>
+            <StackPanel VerticalAlignment="Top" Orientation="Horizontal">
+            
+            <Button Name="btnStart1" Content="Start" Width="40" Height="30" Click="btnStart1_Click"></Button>
+            <Button Name="btnStop1" Content="Stop" Width="40" Height="30" Click="btnStop1_Click"></Button>
+            <Button Name="btnReset1" Content="Reset" Width="40" Height="30" Click="btnReset1_Click"></Button>
+        </StackPanel>
+            <TextBlock Name="txtStopwatch2" Text="Czas: 00:00:00" Height="30"></TextBlock>
+            <StackPanel VerticalAlignment="Top" Orientation="Horizontal">
+
+                <Button Name="btnStart2" Content="Start" Width="40" Height="30" Click="btnStart2_Click"></Button>
+                <Button Name="btnStop2" Content="Stop" Width="40" Height="30" Click="btnStop2_Click"></Button>
+                <Button Name="btnReset2" Content="Reset" Width="40" Height="30" Click="btnReset2_Click"></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
