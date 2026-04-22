@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Technik\\Documents\\kody\\3TPI\\Technik3\\desktopowe\\watki\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63173093-ECD5-4CC0-ACF6-F3B3E07F4F74}|watki\\watki.csproj|c:\\users\\technik\\documents\\kody\\3tpi\\technik3\\desktopowe\\watki\\watki\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63173093-ECD5-4CC0-ACF6-F3B3E07F4F74}|watki\\watki.csproj|solutionrelative:watki\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBA3EF46-6A91-0142-9589-ABD9C4E976C5}|watki\\watki.csproj|c:\\users\\technik\\documents\\kody\\3tpi\\technik3\\desktopowe\\watki\\watki\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA3EF46-6A91-0142-9589-ABD9C4E976C5}|watki\\watki.csproj|solutionrelative:watki\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63173093-ECD5-4CC0-ACF6-F3B3E07F4F74}|watki\\watki.csproj|c:\\users\\technik\\documents\\kody\\3tpi\\technik3\\desktopowe\\watki\\watki\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{63173093-ECD5-4CC0-ACF6-F3B3E07F4F74}|watki\\watki.csproj|solutionrelative:watki\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CBA3EF46-6A91-0142-9589-ABD9C4E976C5}|watki\\watki.csproj|c:\\users\\technik\\documents\\kody\\3tpi\\technik3\\desktopowe\\watki\\watki\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBA3EF46-6A91-0142-9589-ABD9C4E976C5}|watki\\watki.csproj|solutionrelative:watki\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -29,8 +33,7 @@
               "ToolTip": "C:\\Users\\Technik\\Documents\\kody\\3TPI\\Technik3\\desktopowe\\watki\\watki\\MainWindow.xaml",
               "RelativeToolTip": "watki\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-15T06:18:50.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T06:18:50.492Z"
             },
             {
               "$type": "Document",
@@ -40,7 +43,7 @@
               "RelativeDocumentMoniker": "watki\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Technik\\Documents\\kody\\3TPI\\Technik3\\desktopowe\\watki\\watki\\MainWindow.xaml.cs",
               "RelativeToolTip": "watki\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAwEcAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T06:18:49.626Z",
               "EditorCaption": ""
