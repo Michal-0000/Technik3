@@ -1,0 +1,33 @@
+<div class ="container mt-5">
+    <h2>Galeria</h2>
+
+    <div class="mb-4">
+        <label for="fileInput" class="form-contol">Wybierz pliki: </label>
+        <input type="file" multiple id="fileInput" class="form-contol" (change)="onFileChanged($event)">
+    </div>
+
+    <div class="row">
+        <div *ngFor="let file of files(); let i= index;" class="col-md-4 mb-4">
+                <div *ngIf="images()[i]"  class="card">
+                    <img [src]="images()[i]" class="card-img-top">
+                    <div class="card-body text-center">
+                        <p class="card-text"><strong>{{ getName(file.name || '') }}</strong></p>
+                        <p class="card-text">Rozmiar: {{  (file.size || 0) / 1048576 | number:'1.2-2'}} MB </p>
+                        <button class="btn btn-danger" (click)="remove(i)">Usuń</button>
+                        
+                    </div>
+                </div>
+
+                <div *ngIf="texts()[i]" class="card">
+                    <div class="card-body text-center">
+                        <p class="card-title"><strong>{{ getName(file.name || '') }}</strong></p>
+                        <p class="card-text">{{texts()[i]}}</p>
+                        <p class="card-text">Rozmiar: {{  (file.size || 0) / 1048576 | number:'1.2-2'}} MB </p>
+                        <button class="btn btn-danger" (click)="remove(i)">Usuń</button>
+                        
+                    </div>
+                </div>
+        </div>    
+    </div>
+
+</div>

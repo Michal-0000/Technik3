@@ -1,0 +1,24 @@
+
+<div class ="container mt-5">
+    <h2>Notatnik</h2>
+
+    <div class="mb-4">
+        <label for="fileInput" class="form-contol">Wybierz pliki: </label>
+        <input type="file" multiple id="fileInput" class="form-contol" accept=".txt" (change)="onFileChanged($event)">
+    </div>
+
+    <div class="row">
+        <div *ngFor="let text of texts(); let i= index;" class="col-md-4 mb-4">
+                <div class="card">
+                    <p>{{text}}</p>
+                    <div class="card-body text-center">
+                        <p class="card-text"><strong>{{ getName(files()[i]?.name || '') }}</strong></p>
+                        <p class="card-text">Rozmiar: {{  (files()[i].size || 0) / 1048576 | number:'1.2-2'}} MB </p>
+                        <button class="btn btn-danger" (click)="remove(i)">Usuń</button>
+                        
+                    </div>
+                </div>
+        </div>    
+    </div>
+
+</div>
