@@ -31,34 +31,45 @@ namespace MultiplyingCircles
     public partial class MainWindow : Window
     {
         private List<Ball> balls = new List<Ball>();
-        private const double ballRadious = 3;
+        private const double ballRadious = 15;
         private Random random = new Random();
 
         public MainWindow()
         {
             InitializeComponent();
-            CreateBall(10, 10, 4, 4);
+            CreateBall(10, 10, true);
             _ = Update();
             Task.Run(Update);
         }
 
-        public void CreateBall(double x, double y, double velX, double velY)
+        public void CreateBall(double x, double y, bool isParent = false)
         {
+            double velX = (random.NextDouble()-0.5)*2;
+            double velY = (random.NextDouble() - 0.5) * 2;
             SolidColorBrush color = new SolidColorBrush(Color.FromRgb((byte)random.Next(0, 255), (byte)random.Next(0, 255), (byte)random.Next(0, 255)));
             Ellipse ellipse = new Ellipse
             {
                 Width = 30,
                 Height = 30,
-                Fill = Brushes.Red,
-                Stroke = Brushes.Red,
+                Fill = color,
+                Stroke = color,
                 StrokeThickness = 1
             };
-            Ball ball = new Ball(ellipse, x, y, 2, 2);
+            Ball ball = new Ball(ellipse, x, y, velX, velY);
             Canvas.SetLeft(ellipse, x);
             Canvas.SetTop(ellipse, y);
             canvas.Children.Add(ellipse);
-            
+            if(isParent) ellipse.MouseLeftButtonDown += EllipseMouseLeftButtonDown;
             balls.Add(ball);
+        }
+
+        private void EllipseMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Point clickPoint = e.GetPosition(this);
+            if (sender is Ellipse clickedEllipse)
+            {
+                CreateBall(clickPoint.X, clickPoint.Y);
+            }
         }
 
         private void MoveBalls()
@@ -92,7 +103,7 @@ namespace MultiplyingCircles
         public async Task Update()
         {
             MoveBalls();
-            await Task.Delay(16);
+            await Task.Delay(5);
             await Update();
         }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dynamiccanvas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+928c9dcc7f71b06254f75caee0495b341a3238b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b26575d4a783b113cef764509cee5ada18754865")]
 [assembly: System.Reflection.AssemblyProductAttribute("dynamiccanvas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dynamiccanvas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
