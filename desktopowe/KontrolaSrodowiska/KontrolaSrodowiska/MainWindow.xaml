@@ -1,0 +1,28 @@
+﻿<Window x:Class="KontrolaSrodowiska.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KontrolaSrodowiska"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10">
+            <Grid Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">
+                <Label Content="Sensor Wilgotności:" Margin="10" Width="300"/>
+                <Label Name="txtWilgotnosc" Margin="10" Width="60" Content="0%"/>
+            </Grid>
+            
+            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">
+                <Label Content="System Nawadniania: " Margin="10" Width="400"/>
+                <ProgressBar Name="progressWater" Margin="10" Width="Auto" Height="50" Maximum="100" Orientation="Vertical"/>
+                <TextBlock Name="txtLiters" Text="0,00L"></TextBlock>
+            </StackPanel>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10">
+                <Label Content="Archiwizacja: " Margin="10" Width="300"/>
+                <TextBox IsReadOnly="true" Name="txtFileData"/>
+                <TextBlock Name="txtFileLog" Text="Zapisano 0 plików. Ostatni: "/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
