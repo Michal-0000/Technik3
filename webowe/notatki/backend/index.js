@@ -52,7 +52,28 @@ app.delete(`/notes/:id`, (req, res) => {
             if(err){
                 return res.status(500).json({error: err.message});
             }
+            if(this.changes === 0){
+                return res.status(404).json({error: "Notatka nie znaleziona"});
+            }
             res.json({message: "Usunieto rekord z bazy"});
+        });
+});
+
+//endpoint - edycja notatki
+app.put(`/notes/:id`, upload.single('image'), (req, res) => {
+    const {id} = req.params;
+    const {title, content} = req.body;
+    const imageURL = req.file ? `/assets/images/${req.file.filename}` : req.body.image;
+
+    db.run(`UPDATE notes SET title = ?, content = ?, image = ? WHERE id = ?`, [title, content, imageURL, id],
+        function(err){
+            if(err){
+                return res.status(500).json({error: err.message});
+            }
+            if(this.changes === 0){
+                return res.status(404).json({error: "Notatka nie znaleziona"});
+            }
+            return res.status(200).json({message: "Zaktualizowano notatke..."});
         });
 });
 
